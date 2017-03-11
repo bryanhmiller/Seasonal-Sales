@@ -19,7 +19,7 @@ function makeCategoryDom(xhrData){
 	for (var i = 0; i < xhrData.categories.length; i++) {
 		currentCategory = xhrData.categories[i];
 	
-		categoryString += `<div>${currentCategory.id}</div>`;
+		categoryString += `<div id="${currentCategory.id}">This div has an id</div>`;
 		categoryString += `<div>${currentCategory.name}</div>`;
 		categoryString += `<div>${currentCategory.season_discount}</div>`;
 		categoryString += `<div>${currentCategory.discount}</div>`;
