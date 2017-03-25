@@ -63,11 +63,6 @@ function productFail(){
 	console.log("booooo");
 }
 
-// function selection() {
-// 	console.log(event);
-// 	console.log(event.target);
-// }
-
 var categoriesRequest = new XMLHttpRequest();
 categoriesRequest.addEventListener("load", categoriesMakerLoaded);
 categoriesRequest.addEventListener("error", categoriesFail);
